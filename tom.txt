@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TOM AND JERRY</title>
+</head>
+<body>    
+
+    <div class="navbar">
+        <h5><a href="#">TOM & JERRY</a></h5>
+        <h5><a href="#home">HOME</a></h5>
+        <h5><a href="#abt">ABOUT</a></h5>
+        <h5><a href="#event">EVENTS</a></h5>
+        <h5><a href="#contact">CONTACT</a></h5>
+    </div>
+
+    <section class="home" id="home">
+        <h1><u>TOM & JERRY</u></h1>
+        <p>Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry. Many shorts also feature several recurring characters.</p>
+        <p>     In its original run, Hanna and Barbera produced 114 Tom and Jerry shorts for MGM from 1940 to 1958.[1] During this time, they won seven Academy Awards for Best Animated Short Film, tying for first place with Walt Disney's Silly Symphonies with the most awards in the category. After the MGM cartoon studio closed in 1957, MGM revived the series with Gene Deitch directing an additional 13 Tom and Jerry shorts for Rembrandt Films from 1961 to 1962. Tom and Jerry became the highest-grossing animated short film series of that time, overtaking Looney Tunes. Chuck Jones produced another 34 shorts with Sib Tower 12 Productions between 1963 and 1967. Five more shorts have been produced since 2001, making a total of 166 shorts.
+        </p>
+        <img src="" alt="" >
+    </section>
+    <section class="abt" id="abt">
+        <div class="left-half">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/t0Q2otsqC4I?si=p2BNjzQn_R-lLQKe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen width="600px" height="600px"></iframe>
+
+        </div>
+        <div class="right-half">
+            <h1 >Get to know more</h1>
+            <p>Tom and Jerry first premiered in 1940, featuring a cat named Tom chasing a mouse named Jerry through their home, the streets, and around the world! These chases often involved Tom getting into awkward situations and being putting immense pain while Jerry toyed with him and got the last laugh. <br><br>
+
+                As the cartoons progressed throughout the 20th Century and into the 21st Century, the stakes got higher and higher and higher, with involvement of criminals, long voyages to the other side of the world, and even trips to the space! </p>
+        </div>
+    </section>
+    <section class="event" id="event">
+        <h1>Events are viewed here</h1>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/236x/5b/78/59/5b78594a49473a9864f9ebeaa223682a.jpg" alt="img" class="image">
+            <img src="https://i.pinimg.com/236x/55/74/81/5574811c7816bff869cd44ee12741c28.jpg" alt="img" class="image">
+            <img src="https://i.pinimg.com/236x/6f/f3/5e/6ff35ef8f871c2f1f4ed0c423ecace4b.jpg" alt="img" class="image">
+            
+        </div>
+    </section>
+    
+    
+    <section class="contact" id="contact">
+      <h1>Get connected through</h1>  
+      <div class="cont">
+            <div class="left-half1">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d250644.768352611!2d76.80241848984404!3d11.014261487657395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1709183586900!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    </div>
+                </div>
+                <p></p>
+            </div>
+                <div class="right-half1">
+                    <h1 class="about">About You</h1>
+                    <form>
+                        <div>
+                          <label for="firstName">First Name:</label>
+                          <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div>
+                          <label for="lastName">Last Name:</label>
+                          <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div>
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                          <button type="submit">Submit</button>
+                        </div>
+                      </form>                      
+                </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar{
+    background-color: #484848; 
+    width: 100%;
+    height: 50px auto;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.navbar>h5{ 
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: larger;
+    transition: 0.4s;
+}
+.navbar h5:first-child{
+    position: absolute;
+    left: 20px;
+    font-size: 32px;
+}
+a:hover {
+    color: #fbc531; 
+    cursor: pointer;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.licdn.com/dms/image/C5112AQHzEL6X_ullvA/article-cover_image-shrink_600_2000/0/1520196017902?e=2147483647&v=beta&t=QFxOQsoI6TxgVwsEURU-5kP-wymAweCGRxm_Kq0QFaI);
+    background-repeat: no-repeat ;
+    background-size: 100%;
+}
+.home h1{
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+}
+.home p{
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 3px;
+}
+
+
+.gallery {
+    background-color: #fbc531;
+    border: 20px solid#fa620a;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+  
+.image {
+    border-radius: 8px;
+    overflow: hidden;  
+    width: 400px; 
+    height: 600px;
+}
+
+.event h1{
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #fa620a;
+    height: 30px;
+    width: 100%;
+    font-weight: 600;
+}
+.abt{
+    height: 400px;
+    width: 100%;
+    background-color:  #818181;
+    display: flex;
+}
+.left-half{
+    height: 700px;
+    padding: 20px;
+    float: left;
+}
+.left-half iframe{
+    margin: 30px;
+    border-radius: 8px;
+    float: left;
+}
+.right-half{
+    width: 50%;
+    height: 800px;
+    float:right;
+    color: #fff;
+}
+.right-half h1{
+    padding: 20px;
+    font-size: 46px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.right-half p{
+    display: flex;
+    float: right;
+    justify-content: end;
+    align-items: end;
+    margin: 10px;
+    padding: 20px;
+}
+
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(127, 195, 255);
+}
+.cont{
+    display: flex;
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding: 20px;
+}
+.left-half1{
+    display: flex;
+    width: 50%;
+    float: left;
+    margin: 30px;
+    padding: 30px;
+}
+.right-half1{
+    width: 50%;
+    padding: 20px;
+    float: right;
+}
+.about{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+form {
+    color: black;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
